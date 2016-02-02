@@ -15,7 +15,12 @@ public class Ejercicio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("ADRIAN");
+        System.out.println("SEBASTIAN H.");
+        Nokia objeto2 = new Nokia();
+        objeto2.setModelo("nokia 1100"); 
+        System.out.println(objeto2.getModelo());
+        objeto2.setColor("Verde");
+        System.out.println(objeto2.getColor());
     }
     
 }
